@@ -1,0 +1,10 @@
+
+# configure the windows borders and theme
+# class                 border      backgr.     text    indicator child_border
+client.focused          #24283b 	#24283b     #bb9af7 #ffffff   #24283b   
+client.focused_inactive #24283b 	#24283b     #7aa2f7 #ffffff   #24283b   
+client.unfocused        #24283b 	#24283b     #7aa2f7 #ffffff   #24283b   
+client.urgent           #24283b 	#24283b     #7aa2f7 #ffffff   #24283b   
+client.placeholder      #24283b 	#24283b     #7aa2f7 #ffffff   #24283b   
+client.background       #24283b
+

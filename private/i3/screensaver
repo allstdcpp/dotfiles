@@ -1,0 +1,5 @@
+# auto screen locking
+exec --no-startup-id xautolock -locker "i3lock --tiling --image ~/pictures/lock.png"
+
+# setup screen lock
+bindsym $mod+Shift+s exec "i3lock --tiling --image ~/pictures/lock.png"

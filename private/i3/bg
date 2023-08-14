@@ -1,0 +1,2 @@
+# set background with feh
+exec --no-startup-id feh --bg-scale ~/pictures/cppmap.png

@@ -1,0 +1,2 @@
+# map the print key to gnome-screenshot.
+bindsym Print exec "gnome-screenshot -i"

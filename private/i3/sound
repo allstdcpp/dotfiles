@@ -1,0 +1,5 @@
+
+# map volume
+bindsym $mod+F2 exec ~/dotfiles/private/i3/vold.sh
+bindsym $mod+F3 exec ~/dotfiles/private/i3/volp.sh
+

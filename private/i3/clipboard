@@ -1,0 +1,2 @@
+# use clipit for clipboard management
+exec --no-startup-id clipit

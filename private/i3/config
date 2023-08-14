@@ -1,0 +1,19 @@
+# use command key for modifier key
+set $mod Mod4
+
+include "fonts"
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+include "bg"
+include "clipboard"
+include "terminal"
+include "sound"
+include "apps"
+include "screensaver"
+include "screenshot"
+include "launch"
+include "defaults"
+include "windows"
+include "bar"

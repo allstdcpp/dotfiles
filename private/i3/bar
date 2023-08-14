@@ -1,0 +1,15 @@
+
+# configure the bar with color scheme
+bar {
+    status_command i3status
+	font pango: FiraCode Nerd Font Mono 18
+	colors {
+		background #24283b
+		statusline #7aa2f7
+		separator #24283b
+		focused_workspace  	#24283b 	#565f89     	#9ece6a		
+		active_workspace  	#24283b 	#565f89     	#24283b		
+		urgent_workspace  	#24283b 	#f7768e		#7aa2f7		
+		inactive_workspace 	#24283b 	#24283b		#7aa2f7		
+	}
+}

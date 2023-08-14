@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+[user]
+	name = Blair Davidson
+	email = blair.joel.davidson@gmail.com
+[commit]
+	template = /home/bdavidson/dotfiles/private/git/gittemplate

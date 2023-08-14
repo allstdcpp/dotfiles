@@ -1,0 +1,46 @@
+add_newline = true
+
+[line_break]
+disabled = true
+
+format = """"
+    $username\
+    @$hostname\
+    $character
+""""
+
+[character]
+success_symbol = "λ"
+error_symbol = "λ"
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[directory]
+style = "fg:#e3e5e5"
+format = "[ $path ]($style)"
+truncation_length = 8
+truncate_to_repo = false
+truncation_symbol = "../"
+home_symbol = "~"
+
+[lua]
+style = "fg:#e3e5e5"
+format = 'via [ $version]($style) '
+
+[perl]
+disabled = true
+
+[fennel]
+style = "fg:#e3e5e5"
+format = 'via [ $version]($style) '
+
+[python]
+style = "fg:#e3e5e5"
+format = 'via [ $version]($style) '
+
+[cmd_duration]
+disabled = true

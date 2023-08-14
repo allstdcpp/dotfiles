@@ -1,0 +1,7 @@
+
+bindsym $mod+Shift+f exec "firefox"
+bindsym $mod+Shift+t exec "/usr/local/bin/clion"
+bindsym $mod+Shift+v exec "vlc"
+bindsym $mod+Shift+p exec ~/dotfiles/private/i3/firefox.sh
+
+
