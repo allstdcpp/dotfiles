@@ -9,6 +9,7 @@ M.plugin = {
         })
 
         vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>");
+        vim.keymap.set("n", "<leader>xq", "<cmd>Trouble quickfix<cr>");
     end
 }
 

@@ -19,6 +19,7 @@ local lazy = require("config/lazy")
 
 lazy.setup({
     { "nvim-lua/plenary.nvim" },
+    require("plugins/dashboard").plugin,
     require("plugins/fennel").plugin,
     require("plugins/aniseed").plugin,
     require("plugins/conjure").plugin,
@@ -39,3 +40,7 @@ lazy.setup({
 })
 
 vim.keymap.set("n", "<leader>w", "<cmd>write<cr>")
+vim.keymap.set("n", "<leader>p", "<cmd>bprev<cr>")
+vim.keymap.set("n", "<leader>n", "<cmd>bnext<cr>")
+vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<cr>")
+vim.keymap.set("n", "<leader>bw", "<cmd>bwipeout<cr>")
