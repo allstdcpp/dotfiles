@@ -24,6 +24,9 @@ export EDITOR
 PAGER=less
 export PAGER
 
+# browser
+BROWSER=librewolf
+
 # set git prompt variables
 
 export GIT_PS1_SHOWDIRTYSTATE=1
